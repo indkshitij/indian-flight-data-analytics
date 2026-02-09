@@ -1,0 +1,175 @@
+# =====================================================
+# PYTHON — BYTECODE / CACHE / RUNTIME
+# =====================================================
+__pycache__/
+**/__pycache__/
+
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+.python-version
+
+# =====================================================
+# PYTHON — BUILD / DISTRIBUTION
+# =====================================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+pip-wheel-metadata/
+
+# =====================================================
+# VIRTUAL ENVIRONMENTS
+# =====================================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda
+.conda/
+conda-meta/
+
+# =====================================================
+# JUPYTER / IPYTHON
+# =====================================================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+.profile_default/
+.ipython/
+
+# Jupyter Lab
+.jupyter/
+
+# =====================================================
+# LOGS / RUNTIME OUTPUTS
+# =====================================================
+logs/
+python/logs/
+**/logs/
+
+*.log
+*.out
+*.err
+
+# =====================================================
+# OS — macOS / WINDOWS / LINUX
+# =====================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+Thumbs.db
+Desktop.ini
+
+# =====================================================
+# IDE / EDITORS
+# =====================================================
+.vscode/
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# =====================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# =====================================================
+.env
+.env.*
+*.env
+python/.env
+
+# Database credentials / configs
+db_config.yaml
+db_config.yml
+secrets.yaml
+secrets.yml
+
+# =====================================================
+# DATA — RAW / TEMP / INTERMEDIATE
+# =====================================================
+dataset/raw/
+dataset/temp/
+dataset/tmp/
+dataset/intermediate/
+
+python/data/
+python/tmp/
+python/temp/
+
+# Ignore ALL CSVs by default
+*.csv
+
+# Explicitly allow final cleaned dataset
+!dataset/Air-Clean.csv
+
+# Columnar / big data formats
+*.parquet
+*.feather
+*.orc
+*.avro
+
+# =====================================================
+# CHARTS / FIGURES / EXPORTS
+# =====================================================
+# Generated outputs (enable if charts are not versioned)
+# python/charts/
+# python/charts/*.png
+# python/charts/*.jpg
+
+# Temporary matplotlib cache
+.matplotlib/
+
+# =====================================================
+# TESTING / COVERAGE
+# =====================================================
+.pytest_cache/
+pytest_cache/
+
+.coverage
+coverage.xml
+htmlcov/
+
+# =====================================================
+# CACHES — LIBRARIES / TOOLS
+# =====================================================
+.cache/
+**/.cache/
+
+seaborn-data/
+matplotlib-data/
+
+joblib/
+**/joblib/
+
+# =====================================================
+# MISC / TEMP FILES
+# =====================================================
+*.tmp
+*.bak
+*.old
+*.orig
+
+*.lock
+
+# =====================================================
+# GIT — SAFETY
+# =====================================================
+*.rej
+*.patch
